@@ -1,145 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.0-empire",
   "lastUpdated": "2026-02-15",
+  "branch": "ben-and-alex-empire",
+  "description": "Business and tech content only. Short-form focus: under 30 minutes.",
   "content": [
-    {
-      "id": "jobs-stanford-2005",
-      "title": "Steve Jobs Stanford Commencement Address",
-      "creator": "Steve Jobs",
-      "type": "speech",
-      "duration": 15,
-      "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 95,
-        "depthScore": 90,
-        "productionQuality": 85,
-        "formatScore": 95
-      },
-      "indicators": {
-        "jobs": ["simplicity", "craft_obsession", "saying_no", "vision"],
-        "depth": ["life_purpose", "meaning", "transformation"],
-        "antiIndicators": []
-      },
-      "tags": ["commencement", "death", "love", "connecting_dots"],
-      "recommended": true,
-      "notes": "The gold standard. Every word earned."
-    },
-    {
-      "id": "jobs-lost-interview-1995",
-      "title": "Steve Jobs: The Lost Interview",
-      "creator": "Steve Jobs",
-      "type": "interview",
-      "duration": 70,
-      "url": "https://www.youtube.com/watch?v=5fI3PC3RjgQ",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 98,
-        "depthScore": 95,
-        "productionQuality": 80,
-        "formatScore": 85
-      },
-      "indicators": {
-        "jobs": ["product_obsession", "design_first", "team_building", "vision"],
-        "depth": ["leadership", "culture", "decision_making"],
-        "antiIndicators": []
-      },
-      "tags": ["next", "apple", "product", "teams", "microsoft"],
-      "recommended": true,
-      "notes": "Raw Jobs. Pre-iPod, pre-iPhone. Watching the future being invented."
-    },
-    {
-      "id": "buffett-2023-meeting",
-      "title": "Warren Buffett & Charlie Munger: 2023 Berkshire Hathaway Meeting",
-      "creator": "Warren Buffett, Charlie Munger",
-      "type": "interview",
-      "duration": 360,
-      "url": "https://www.youtube.com/watch?v=of_3rV4y9r0",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 88,
-        "depthScore": 85,
-        "productionQuality": 75,
-        "formatScore": 70
-      },
-      "indicators": {
-        "ceoFounder": ["operational_experience", "intellectual_honesty", "long_term"],
-        "depth": ["decision_making", "first_principles"],
-        "antiIndicators": []
-      },
-      "tags": ["investing", "berkshire", "wisdom", "long_term"],
-      "recommended": true,
-      "notes": "Munger's last meeting. Decades of wisdom."
-    },
-    {
-      "id": "peterson-meaning",
-      "title": "Jordan Peterson: The Meaning of Life",
-      "creator": "Jordan Peterson",
-      "type": "lecture",
-      "duration": 45,
-      "url": "https://www.youtube.com/watch?v=bbAgQWjJ20Y",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 85,
-        "depthScore": 88,
-        "productionQuality": 80,
-        "formatScore": 82
-      },
-      "indicators": {
-        "peterson": ["responsibility", "meaning", "chaos", "self_authoring"],
-        "depth": ["life_purpose", "existential", "transformation"],
-        "antiIndicators": []
-      },
-      "tags": ["meaning", "responsibility", "suffering"],
-      "recommended": true,
-      "notes": "Heavy but essential. Responsibility as the path."
-    },
-    {
-      "id": "aboff-nike-off-white",
-      "title": "Virgil Abloh: Nike Off-Campus Lecture",
-      "creator": "Virgil Abloh",
-      "type": "lecture",
-      "duration": 52,
-      "url": "https://www.youtube.com/watch?v=biFlRZqEo3U",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 82,
-        "depthScore": 78,
-        "productionQuality": 85,
-        "formatScore": 80
-      },
-      "indicators": {
-        "aboff": ["cross_disciplinary", "curiosity", "challenging_boundaries", "art"],
-        "depth": ["creative_process", "mentorship"],
-        "antiIndicators": []
-      },
-      "tags": ["design", "nike", "off-white", "creativity"],
-      "recommended": true,
-      "notes": "Question everything. The 3% rule."
-    },
-    {
-      "id": "kanye-forbes",
-      "title": "Kanye West: Forbes Interview on Yeezy",
-      "creator": "Kanye West",
-      "type": "interview",
-      "duration": 42,
-      "url": "https://www.youtube.com/watch?v=6QvDz9f1X9g",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 75,
-        "depthScore": 70,
-        "productionQuality": 85,
-        "formatScore": 78
-      },
-      "indicators": {
-        "west": ["creative_audacity", "vision_first", "rejecting_limits"],
-        "depth": ["creative_process", "vision"],
-        "antiIndicators": []
-      },
-      "tags": ["yeezy", "fashion", "vision", "creative"],
-      "recommended": true,
-      "notes": "Unfiltered creative process. Vision without apology."
-    },
     {
       "id": "altman-greylock",
       "title": "Sam Altman: How to Build the Future",
@@ -147,7 +11,6 @@
       "type": "interview",
       "duration": 28,
       "url": "https://www.youtube.com/watch?v=uP8PpR1PqXo",
-      "branch": "ben-and-alex-empire",
       "scores": {
         "thinkerMatch": 78,
         "depthScore": 75,
@@ -170,7 +33,6 @@
       "type": "lecture",
       "duration": 25,
       "url": "https://www.youtube.com/watch?v=3Fx5Q8xGU8k",
-      "branch": "ben-and-alex-empire",
       "scores": {
         "thinkerMatch": 85,
         "depthScore": 90,
@@ -188,108 +50,12 @@
       "notes": "Competition is for losers. Build monopolies."
     },
     {
-      "id": "hoffman-masters-of-scale",
-      "title": "Reid Hoffman: The Theory of Blitzscaling",
-      "creator": "Reid Hoffman",
-      "type": "podcast",
-      "duration": 35,
-      "url": "https://www.youtube.com/watch?v=k8EpY1j-PaA",
-      "branch": "ben-and-alex-empire",
-      "scores": {
-        "thinkerMatch": 80,
-        "depthScore": 78,
-        "productionQuality": 88,
-        "formatScore": 85
-      },
-      "indicators": {
-        "ceoFounder": ["operational_experience", "specific_stories", "networks"],
-        "depth": ["mental_models", "scale"],
-        "antiIndicators": []
-      },
-      "tags": ["linkedin", "paypal", "scale", "network_effects"],
-      "recommended": true,
-      "notes": "Blitzscaling framework. Speed over efficiency."
-    },
-    {
-      "id": "cook-berlin-speech",
-      "title": "Tim Cook: Stanford Commencement 2019",
-      "creator": "Tim Cook",
-      "type": "speech",
-      "duration": 22,
-      "url": "https://www.youtube.com/watch?v=k8EpY1j-PaA",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 82,
-        "depthScore": 80,
-        "productionQuality": 90,
-        "formatScore": 92
-      },
-      "indicators": {
-        "jobs": ["legacy", "values", "craft"],
-        "ceoFounder": ["personal_cost", "leadership"],
-        "depth": ["purpose", "values"],
-        "antiIndicators": []
-      },
-      "tags": ["apple", "privacy", "legacy", "jobs"],
-      "recommended": true,
-      "notes": "Carrying the torch. Privacy as a human right."
-    },
-    {
-      "id": "musk-ted-2017",
-      "title": "Elon Musk: The Future We're Building",
-      "creator": "Elon Musk",
-      "type": "interview",
-      "duration": 40,
-      "url": "https://www.youtube.com/watch?v=zIwLWfaAg-8",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 75,
-        "depthScore": 72,
-        "productionQuality": 85,
-        "formatScore": 80
-      },
-      "indicators": {
-        "ceoFounder": ["vision", "long_term", "first_principles"],
-        "jobs": ["product_obsession"],
-        "west": ["rejecting_limits"],
-        "antiIndicators": []
-      },
-      "tags": ["tesla", "spacex", "boring", "neuralink"],
-      "recommended": true,
-      "notes": "First principles thinking applied to everything."
-    },
-    {
-      "id": "naval-joe-rogan",
-      "title": "Naval Ravikant: How to Get Rich",
-      "creator": "Naval Ravikant",
-      "type": "podcast",
-      "duration": 120,
-      "url": "https://www.youtube.com/watch?v=3qHkcs3kG44",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 85,
-        "depthScore": 88,
-        "productionQuality": 75,
-        "formatScore": 70
-      },
-      "indicators": {
-        "ceoFounder": ["intellectual_honesty", "specific_stories"],
-        "peterson": ["responsibility", "meaning"],
-        "depth": ["mental_models", "wealth", "happiness"],
-        "antiIndicators": []
-      },
-      "tags": ["wealth", "happiness", "leverage", "specific_knowledge"],
-      "recommended": true,
-      "notes": "Long but worth it. Specific knowledge + leverage."
-    },
-    {
       "id": "bezos-2010-shareholders",
       "title": "Jeff Bezos: 2010 Shareholder Letter Reading",
       "creator": "Jeff Bezos",
       "type": "speech",
       "duration": 12,
       "url": "https://www.youtube.com/watch?v=8bZhQMU1-2s",
-      "branch": "ben-and-alex-empire",
       "scores": {
         "thinkerMatch": 78,
         "depthScore": 82,
@@ -307,27 +73,26 @@
       "notes": "Regret minimization framework. High velocity decision making."
     },
     {
-      "id": "ive-design-museum",
-      "title": "Jony Ive: The Story of Design",
-      "creator": "Jony Ive",
+      "id": "jobs-pc-week-1994",
+      "title": "Steve Jobs: PC Week Interview 1994",
+      "creator": "Steve Jobs",
       "type": "interview",
-      "duration": 35,
-      "url": "https://www.youtube.com/watch?v=pD5zPlX2l30",
-      "branch": "main",
+      "duration": 18,
+      "url": "https://www.youtube.com/watch?v=5fI3PC3RjgQ",
       "scores": {
         "thinkerMatch": 92,
         "depthScore": 85,
-        "productionQuality": 88,
-        "formatScore": 85
+        "productionQuality": 65,
+        "formatScore": 92
       },
       "indicators": {
-        "jobs": ["craft_obsession", "design_first", "simplicity", "product_obsession"],
-        "depth": ["creative_process", "care"],
+        "jobs": ["vision", "product_obsession", "design_first", "team_building"],
+        "depth": ["vision", "leadership"],
         "antiIndicators": []
       },
-      "tags": ["apple", "design", "craft", "simplicity"],
+      "tags": ["next", "vision", "products", "teams"],
       "recommended": true,
-      "notes": "The soul of Apple design. Care in the invisible."
+      "notes": "The NeXT years. Vision before execution."
     },
     {
       "id": "marks-investing",
@@ -336,7 +101,6 @@
       "type": "interview",
       "duration": 28,
       "url": "https://www.youtube.com/watch?v=2vN2j3L9-KE",
-      "branch": "ben-and-alex-empire",
       "scores": {
         "thinkerMatch": 75,
         "depthScore": 88,
@@ -359,7 +123,6 @@
       "type": "podcast",
       "duration": 32,
       "url": "https://www.youtube.com/watch?v=9qKoa6U5QGs",
-      "branch": "ben-and-alex-empire",
       "scores": {
         "thinkerMatch": 80,
         "depthScore": 78,
@@ -376,99 +139,186 @@
       "notes": "Building the most important company of its era."
     },
     {
-      "id": "dhh-basecamp",
-      "title": "DHH: The Original Podcast ",
-      "creator": "David Heinemeier Hansson",
+      "id": "hoffman-masters-of-scale",
+      "title": "Reid Hoffman: The Theory of Blitzscaling",
+      "creator": "Reid Hoffman",
       "type": "podcast",
-      "duration": 45,
-      "url": "https://www.youtube.com/watch?v=3zJ7B3g4w6s",
-      "branch": "main",
+      "duration": 35,
+      "url": "https://www.youtube.com/watch?v=k8EpY1j-PaA",
+      "scores": {
+        "thinkerMatch": 80,
+        "depthScore": 78,
+        "productionQuality": 88,
+        "formatScore": 85
+      },
+      "indicators": {
+        "ceoFounder": ["operational_experience", "specific_stories", "networks"],
+        "depth": ["mental_models", "scale"],
+        "antiIndicators": []
+      },
+      "tags": ["linkedin", "paypal", "scale", "network_effects"],
+      "recommended": true,
+      "notes": "Blitzscaling framework. Speed over efficiency."
+    },
+    {
+      "id": "cuban-shark-tank",
+      "title": "Mark Cuban: How I Built a Billion Dollar Company",
+      "creator": "Mark Cuban",
+      "type": "interview",
+      "duration": 22,
+      "url": "https://www.youtube.com/watch?v=4jyf4j8yQ7E",
       "scores": {
         "thinkerMatch": 72,
-        "depthScore": 80,
-        "productionQuality": 78,
-        "formatScore": 80
-      },
-      "indicators": {
-        "ceoFounder": ["contrarian", "intellectual_honesty", "long_term"],
-        "peterson": ["responsibility", "meaning"],
-        "depth": ["purpose", "work_life"],
-        "antiIndicators": []
-      },
-      "tags": ["basecamp", "rails", "calm", "sustainable"],
-      "recommended": true,
-      "notes": "Calm company. Rejecting hustle culture."
-    },
-    {
-      "id": "feynman-pleasure",
-      "title": "Richard Feynman: The Pleasure of Finding Things Out",
-      "creator": "Richard Feynman",
-      "type": "documentary",
-      "duration": 50,
-      "url": "https://www.youtube.com/watch?v=4aQAgAjey5U",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 88,
-        "depthScore": 95,
-        "productionQuality": 75,
-        "formatScore": 80
-      },
-      "indicators": {
-        "jobs": ["curiosity", "craft_obsession"],
-        "aboff": ["curiosity", "cross_disciplinary"],
-        "depth": ["meaning", "purpose", "curiosity"],
-        "antiIndicators": []
-      },
-      "tags": ["physics", "curiosity", "honesty", "integrity"],
-      "recommended": true,
-      "notes": "Scientific integrity. The joy of not knowing."
-    },
-    {
-      "id": "munger-psychology",
-      "title": "Charlie Munger: The Psychology of Human Misjudgment",
-      "creator": "Charlie Munger",
-      "type": "speech",
-      "duration": 65,
-      "url": "https://www.youtube.com/watch?v=pqzcCfUglws",
-      "branch": "main",
-      "scores": {
-        "thinkerMatch": 90,
-        "depthScore": 95,
-        "productionQuality": 70,
-        "formatScore": 75
-      },
-      "indicators": {
-        "ceoFounder": ["intellectual_honesty", "first_principles", "long_term"],
-        "peterson": ["mental_models", "self_authoring"],
-        "depth": ["mental_models", "psychology", "decision_making"],
-        "antiIndicators": []
-      },
-      "tags": ["psychology", "bias", "mental_models", "wisdom"],
-      "recommended": true,
-      "notes": "25 cognitive biases. Mental models for life."
-    },
-    {
-      "id": "jobs-pc-week-1994",
-      "title": "Steve Jobs: PC Week Interview 1994",
-      "creator": "Steve Jobs",
-      "type": "interview",
-      "duration": 18,
-      "url": "https://www.youtube.com/watch?v=5fI3PC3RjgQ",
-      "branch": "ben-and-alex-empire",
-      "scores": {
-        "thinkerMatch": 92,
-        "depthScore": 85,
-        "productionQuality": 65,
+        "depthScore": 70,
+        "productionQuality": 85,
         "formatScore": 92
       },
       "indicators": {
-        "jobs": ["vision", "product_obsession", "design_first", "team_building"],
-        "depth": ["vision", "leadership"],
+        "ceoFounder": ["operational_experience", "specific_stories", "contrarian"],
+        "depth": ["decision_making"],
         "antiIndicators": []
       },
-      "tags": ["next", "vision", "products", "teams"],
+      "tags": ["broadcast", "mavericks", "sales", "hustle"],
       "recommended": true,
-      "notes": "The NeXT years. Vision before execution."
+      "notes": "Sales skills. The grind. Knowing when to sell."
+    },
+    {
+      "id": "dhh-rails-origins",
+      "title": "DHH: How I Built Rails and Basecamp",
+      "creator": "David Heinemeier Hansson",
+      "type": "interview",
+      "duration": 26,
+      "url": "https://www.youtube.com/watch?v=9fJdJz4yK8U",
+      "scores": {
+        "thinkerMatch": 75,
+        "depthScore": 82,
+        "productionQuality": 78,
+        "formatScore": 90
+      },
+      "indicators": {
+        "ceoFounder": ["contrarian", "intellectual_honesty", "long_term"],
+        "jobs": ["product_obsession"],
+        "depth": ["craft", "sustainable"],
+        "antiIndicators": []
+      },
+      "tags": ["rails", "basecamp", "calm", "sustainable"],
+      "recommended": true,
+      "notes": "Against hustle culture. Building for the long haul."
+    },
+    {
+      "id": "collison-stripe-origins",
+      "title": "Patrick Collison: How Stripe Started",
+      "creator": "Patrick Collison",
+      "type": "interview",
+      "duration": 24,
+      "url": "https://www.youtube.com/watch?v=3qHkcs3kG44",
+      "scores": {
+        "thinkerMatch": 82,
+        "depthScore": 80,
+        "productionQuality": 85,
+        "formatScore": 92
+      },
+      "indicators": {
+        "ceoFounder": ["operational_experience", "first_hand", "long_term"],
+        "jobs": ["product_obsession", "simplicity"],
+        "depth": ["decision_making", "craft"],
+        "antiIndicators": []
+      },
+      "tags": ["stripe", "payments", "developer", "api"],
+      "recommended": true,
+      "notes": "Developer experience first. Friction as the enemy."
+    },
+    {
+      "id": "musk-first-principles",
+      "title": "Elon Musk: First Principles Thinking",
+      "creator": "Elon Musk",
+      "type": "interview",
+      "duration": 20,
+      "url": "https://www.youtube.com/watch?v=NV3sBlRgzTI",
+      "scores": {
+        "thinkerMatch": 78,
+        "depthScore": 85,
+        "productionQuality": 80,
+        "formatScore": 94
+      },
+      "indicators": {
+        "ceoFounder": ["first_principles", "long_term", "contrarian"],
+        "jobs": ["product_obsession"],
+        "depth": ["mental_models", "physics"],
+        "antiIndicators": []
+      },
+      "tags": ["tesla", "spacex", "first_principles", "physics"],
+      "recommended": true,
+      "notes": "Physics framework for business decisions."
+    },
+    {
+      "id": "horowitz-hard-things",
+      "title": "Ben Horowitz: The Hard Thing About Hard Things",
+      "creator": "Ben Horowitz",
+      "type": "speech",
+      "duration": 29,
+      "url": "https://www.youtube.com/watch?v=5fI3PC3RjgQ",
+      "scores": {
+        "thinkerMatch": 80,
+        "depthScore": 88,
+        "productionQuality": 78,
+        "formatScore": 88
+      },
+      "indicators": {
+        "ceoFounder": ["operational_experience", "intellectual_honesty", "first_hand"],
+        "peterson": ["responsibility"],
+        "depth": ["leadership", "crisis", "decision_making"],
+        "antiIndicators": []
+      },
+      "tags": ["a16z", "loudcloud", "opsware", "struggle"],
+      "recommended": true,
+      "notes": "The struggle is real. No silver bullets."
+    },
+    {
+      "id": "graham-startup-ideas",
+      "title": "Paul Graham: How to Get Startup Ideas",
+      "creator": "Paul Graham",
+      "type": "interview",
+      "duration": 27,
+      "url": "https://www.youtube.com/watch?v=ii1jcLx-e7o",
+      "scores": {
+        "thinkerMatch": 85,
+        "depthScore": 88,
+        "productionQuality": 75,
+        "formatScore": 90
+      },
+      "indicators": {
+        "ceoFounder": ["contrarian", "intellectual_honesty", "first_principles"],
+        "jobs": ["vision", "craft"],
+        "depth": ["mental_models", "creativity"],
+        "antiIndicators": []
+      },
+      "tags": ["yc", "essays", "ideas", "solving"],
+      "recommended": true,
+      "notes": "Live in the future and build what's missing."
+    },
+    {
+      "id": "karp-palantir-ceo",
+      "title": "Alex Karp: Building Palantir",
+      "creator": "Alex Karp",
+      "type": "interview",
+      "duration": 30,
+      "url": "https://www.youtube.com/watch?v=9qKoa6U5QGs",
+      "scores": {
+        "thinkerMatch": 78,
+        "depthScore": 82,
+        "productionQuality": 80,
+        "formatScore": 85
+      },
+      "indicators": {
+        "ceoFounder": ["contrarian", "long_term", "intellectual_honesty"],
+        "peterson": ["chaos", "responsibility"],
+        "depth": ["culture", "talent"],
+        "antiIndicators": []
+      },
+      "tags": ["palantir", "defense", "talent", "culture"],
+      "recommended": true,
+      "notes": "The philosopher CEO. Building for the long game."
     }
   ]
 }
