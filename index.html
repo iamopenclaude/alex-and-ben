@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex and Ben</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #111111;
+            --bg-elevated: #1a1a1a;
+            --bg-card: #242424;
+            --text-hero: rgba(255,255,255,0.92);
+            --text-primary: rgba(255,255,255,0.75);
+            --text-secondary: rgba(255,255,255,0.60);
+            --text-tertiary: rgba(255,255,255,0.45);
+            --accent-blue: #0071E3;
+            --border-subtle: rgba(255,255,255,0.08);
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-weight: 300;
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 100;
+            color: var(--text-hero);
+            letter-spacing: -0.4px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 21px;
+            color: var(--text-secondary);
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .content-card {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+            transition: transform 0.15s ease, background 0.15s ease;
+        }
+
+        .content-card:hover {
+            background: var(--bg-card);
+            transform: translateY(-2px);
+        }
+
+        .score-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .score-gold { color: #FFD700; }
+        .score-silver { color: #C0C0C0; }
+        .score-bronze { color: #CD7F32; }
+
+        .content-title {
+            font-size: 21px;
+            font-weight: 300;
+            color: var(--text-hero);
+            margin-bottom: 8px;
+        }
+
+        .content-meta {
+            font-size: 14px;
+            color: var(--text-tertiary);
+            margin-bottom: 12px;
+        }
+
+        .content-notes {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 16px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .tag {
+            background: var(--border-subtle);
+            color: var(--text-secondary);
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        .button-glass {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 100px;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 300;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+
+        .button-glass:hover {
+            background: rgba(255,255,255,0.1);
+            color: var(--text-hero);
+        }
+
+        .section-header {
+            font-size: 27px;
+            font-weight: 100;
+            color: var(--text-hero);
+            margin: 48px 0 24px;
+            letter-spacing: -0.4px;
+        }
+
+        .algorithm-box {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .algorithm-box h3 {
+            font-size: 18px;
+            font-weight: 300;
+            color: var(--text-hero);
+            margin-bottom: 16px;
+        }
+
+        .weight-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            font-size: 14px;
+        }
+
+        .weight-row:last-child {
+            border-bottom: none;
+        }
+
+        .weight-label {
+            color: var(--text-secondary);
+        }
+
+        .weight-value {
+            color: var(--text-hero);
+            font-weight: 400;
+        }
+
+        @media (max-width: 640px) {
+            body { padding: 20px; }
+            h1 { font-size: 42px; }
+            .content-title { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alex and Ben</h1>
+        <p class="subtitle">Curated content. No algorithms. No noise.</p>
+
+        <div class="algorithm-box">
+            <h3>🧠 The Algorithm</h3>
+            <div class="weight-row">
+                <span class="weight-label">Steve Jobs</span>
+                <span class="weight-value">40%</span>
+            </div>
+            <div class="weight-row">
+                <span class="weight-label">CEOs & Founders</span>
+                <span class="weight-value">25%</span>
+            </div>
+            <div class="weight-row">
+                <span class="weight-label">Jordan Peterson</span>
+                <span class="weight-value">15%</span>
+            </div>
+            <div class="weight-row">
+                <span class="weight-label">Virgil Abloh</span>
+                <span class="weight-value">10%</span>
+            </div>
+            <div class="weight-row">
+                <span class="weight-label">Kanye West</span>
+                <span class="weight-value">10%</span>
+            </div>
+        </div>
+
+        <h2 class="section-header">Must Watch</h2>
+
+        <div class="content-card">
+            <div class="score-badge score-gold">
+                <span>🌟</span>
+                <span>Score 93</span>
+            </div>
+            <h3 class="content-title">Steve Jobs Stanford Commencement Address</h3>
+            <p class="content-meta">Steve Jobs • 15m • SPEECH</p>
+            <p class="content-notes">The gold standard. Every word earned.</p>
+            <div class="tags">
+                <span class="tag">commencement</span>
+                <span class="tag">death</span>
+                <span class="tag">love</span>
+                <span class="tag">connecting_dots</span>
+            </div>
+            <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc" class="button-glass">Watch →</a>
+        </div>
+
+        <div class="content-card">
+            <div class="score-badge score-gold">
+                <span>🌟</span>
+                <span>Score 92</span>
+            </div>
+            <h3 class="content-title">Steve Jobs: The Lost Interview</h3>
+            <p class="content-meta">Steve Jobs • 1h 10m • INTERVIEW</p>
+            <p class="content-notes">Raw Jobs. Pre-iPod, pre-iPhone. Watching the future being invented.</p>
+            <div class="tags">
+                <span class="tag">next</span>
+                <span class="tag">apple</span>
+                <span class="tag">product</span>
+                <span class="tag">teams</span>
+            </div>
+            <a href="https://www.youtube.com/watch?v=5fI3PC3RjgQ" class="button-glass">Watch →</a>
+        </div>
+
+        <div class="content-card">
+            <div class="score-badge score-gold">
+                <span>🌟</span>
+                <span>Score 92</span>
+            </div>
+            <h3 class="content-title">Jony Ive: The Story of Design</h3>
+            <p class="content-meta">Jony Ive • 35m • INTERVIEW</p>
+            <p class="content-notes">The soul of Apple design. Care in the invisible.</p>
+            <div class="tags">
+                <span class="tag">apple</span>
+                <span class="tag">design</span>
+                <span class="tag">craft</span>
+                <span class="tag">simplicity</span>
+            </div>
+            <a href="https://www.youtube.com/watch?v=pD5zPlX2l30" class="button-glass">Watch →</a>
+        </div>
+
+        <h2 class="section-header">Highly Recommended</h2>
+
+        <div class="content-card">
+            <div class="score-badge score-silver">
+                <span>✨</span>
+                <span>Score 89</span>
+            </div>
+            <h3 class="content-title">Howard Marks: The Most Important Thing</h3>
+            <p class="content-meta">Howard Marks • 28m • INTERVIEW</p>
+            <p class="content-notes">Second-level thinking. Risk vs uncertainty.</p>
+            <div class="tags">
+                <span class="tag">oaktree</span>
+                <span class="tag">investing</span>
+                <span class="tag">risk</span>
+            </div>
+            <a href="https://www.youtube.com/watch?v=2vN2j3L9-KE" class="button-glass">Watch →</a>
+        </div>
+    </div>
+</body>
+</html>
